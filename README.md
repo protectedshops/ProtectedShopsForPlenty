@@ -1,4 +1,4 @@
-# ProtectedShopsPlugin 1.0.4
+# ProtectedShopsPlugin 1.0.5
 
 This is the protectedshops plugin for plentymarkets 7 system.
 
