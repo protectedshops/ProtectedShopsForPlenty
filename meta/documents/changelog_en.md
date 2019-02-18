@@ -4,3 +4,6 @@
 
 ## v1.0.1 (2017-09-12)
 Changed plugin category and name
+
+## v1.1.0 (2019-02-18)
+Updating core plugin functionality
