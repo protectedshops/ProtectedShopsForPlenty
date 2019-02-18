@@ -6,7 +6,7 @@
       "fullWidth": true,
       "formFields": {
         "global.shopId": {
-          "type": "text",
+          "type": "inputText",
           "required": true,
           "label": "Config.shopId",
           "options": {
@@ -14,7 +14,7 @@
           }
         },
         "global.plentyId": {
-          "type": "text",
+          "type": "inputText",
           "required": true,
           "label": "Config.plentyId",
           "options": {
