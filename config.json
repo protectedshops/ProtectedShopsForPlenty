@@ -7,9 +7,19 @@
     "default"   : {"en": "ProtectedShop ShopID", "de" : "ProtectedShop ShopID"}
   },
   {
-    "tab"       : {"en": "ProtectedShops", "de" : "ProtectedShops"},
-    "key"       : "plentyId",
-    "label"     : {"en": "Plenty ID", "de" : "Plenty ID"},
-    "type"      : "text",
-    "default"   : {"en": "Plenty ID", "de" : "Plenty ID"}
+    "tab": {
+      "en": "ProtectedShops",
+      "de": "ProtectedShops"
+    },
+    "key": "plentyId",
+    "label": {
+      "en": "Plenty ID",
+      "de": "Plenty ID"
+    },
+    "type": "text",
+    "default": {
+      "en": "Plenty ID",
+      "de": "Plenty ID"
+    }
+  }
 ]
