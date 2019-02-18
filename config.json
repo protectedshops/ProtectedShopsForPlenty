@@ -6,19 +6,19 @@
       "fullWidth": true,
       "formFields": {
         "global.shopId": {
-          "type": "inputFile",
+          "type": "text",
           "required": true,
           "label": "Config.shopId",
           "options": {
-            "defaultValue": "Config.shopId"
+            "defaultValue": "shopId"
           }
         },
         "global.plentyId": {
-          "type": "inputFile",
+          "type": "text",
           "required": true,
           "label": "Config.plentyId",
           "options": {
-            "defaultValue": "Config.plentyId"
+            "defaultValue": "plentyId"
           }
         }
       }
