@@ -1,16 +1,15 @@
 [
   {
-    "tab"       : "ProtectedShops",
+    "tab"       : {"en": "ProtectedShops", "de" : "ProtectedShops"},
     "key"       : "shopId",
-    "label"     : "ShopID von protectedshops.de (Kundenlogin -> Schnittstellen)",
+    "label"     : {"en": "ShopID von protectedshops.de (Kundenlogin -> Schnittstellen)", "de" : "ShopID von protectedshops.de (Kundenlogin -> Schnittstellen)"},
     "type"      : "text",
-    "default"   : "ProtectedShop ShopID"
+    "default"   : {"en": "ProtectedShop ShopID", "de" : "ProtectedShop ShopID"}
   },
   {
-    "tab"       : "ProtectedShops",
+    "tab"       : {"en": "ProtectedShops", "de" : "ProtectedShops"},
     "key"       : "plentyId",
-    "label"     : "plentymarkets ID",
+    "label"     : {"en": "Plenty ID", "de" : "Plenty ID"},
     "type"      : "text",
-    "default"   : "Plenty ID"
-  }
+    "default"   : {"en": "Plenty ID", "de" : "Plenty ID"}
 ]
