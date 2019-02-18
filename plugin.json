@@ -7,7 +7,7 @@
   "author"            :"Protected Shops GmbH",
   "email"             :"info@protectedshops.de",
   "phone"             : "+49 (0)89 7298905 0",
-  "type"              :"widgets",
+  "type"              : "general",
   "serviceProvider"   :"ProtectedShops\\Providers\\ProtectedShopsServiceProvider",
   "price"             : 0.00,
   "keywords"          : ["plugins", "legal texts"],
