@@ -1,0 +1,8 @@
+{
+  "marketplaceName"   : {"de":"ProtectedShops","en":"ProtectedShops"},
+  "license"           : "AGPL-3.0",
+  "price"             : 0.00,
+  "shortDescription"  : {"de":"Plugin zur Synchronisation der Rechtstexte von Protected Shops","en":"Plugin for the synchronization of the legal texts of protected shops"},
+  "categories"        : ["3527"],
+  "keywords"          : ["plugins", "legal texts"]
+}

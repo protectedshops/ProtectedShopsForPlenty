@@ -7,3 +7,6 @@ Changed plugin category and name
 
 ## v1.1.0 (2019-02-18)
 Updating core plugin functionality
+
+## v1.1.1 (2019-02-18)
+Added MarketPlace info

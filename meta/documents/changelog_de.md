@@ -8,3 +8,6 @@ Geänderte Plugin-Kategorie und Name
 ## v1.1.0 (2019-02-18)
 Aktualisieren der Kern-Plugin-Funktionalität
 
+## v1.1.1 (2019-02-18)
+MarketPlace-Info hinzugefügt
+
