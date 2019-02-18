@@ -1,25 +1,27 @@
-[
-  {
-    "tab"       : {"en": "ProtectedShops", "de" : "ProtectedShops"},
-    "key"       : "shopId",
-    "label"     : {"en": "ShopID von protectedshops.de (Kundenlogin -> Schnittstellen)", "de" : "ShopID von protectedshops.de (Kundenlogin -> Schnittstellen)"},
-    "type"      : "text",
-    "default"   : {"en": "ProtectedShop ShopID", "de" : "ProtectedShop ShopID"}
-  },
-  {
-    "tab": {
-      "en": "ProtectedShops",
-      "de": "ProtectedShops"
-    },
-    "key": "plentyId",
-    "label": {
-      "en": "Plenty ID",
-      "de": "Plenty ID"
-    },
-    "type": "text",
-    "default": {
-      "en": "Plenty ID",
-      "de": "Plenty ID"
+{
+  "formatVersion": 1.0,
+  "menu": {
+    "Config.protectedShopsForPlenty": {
+      "label": "Config.protectedShopsForPlenty",
+      "fullWidth": true,
+      "formFields": {
+        "global.shopId": {
+          "type": "inputFile",
+          "required": true,
+          "label": "Config.shopId",
+          "options": {
+            "defaultValue": "Config.shopId"
+          }
+        },
+        "global.plentyId": {
+          "type": "inputFile",
+          "required": true,
+          "label": "Config.plentyId",
+          "options": {
+            "defaultValue": "Config.plentyId"
+          }
+        }
+      }
     }
   }
-]
+}
