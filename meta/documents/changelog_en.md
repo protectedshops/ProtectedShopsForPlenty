@@ -10,3 +10,6 @@ Updating core plugin functionality
 
 ## v1.1.1 (2019-02-18)
 Added MarketPlace info
+
+## v1.1.2 (2019-02-20)
+New use rguide images, fix for plugin config parameters.
