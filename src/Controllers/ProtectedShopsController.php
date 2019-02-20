@@ -105,7 +105,8 @@ class ProtectedShopsController extends Controller
     public function protectedShopsUpdateLegalTexts(Twig $twig, ConfigRepository $config, Request $request):string
     {
         try {
-            $shopId = $config->get('global.shopId');
+            echo "debugging";
+            $shopId = $config->get('shopId');
             $plentyId = $config->get('global.plentyId');
             echo($shopId); exit;
             $legalTextsToSync = array_unique($request->get('psLegalTexts'));
