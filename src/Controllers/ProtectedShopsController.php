@@ -106,8 +106,8 @@ class ProtectedShopsController extends Controller
     {
         try {
             echo "debugging";
-            $shopId = $config->get('shopId');
-            $plentyId = $config->get('global.plentyId');
+            $shopId = $config->get('IO.global.shopId');
+            $plentyId = $config->get('IO.global.plentyId');
             echo($shopId); exit;
             $legalTextsToSync = array_unique($request->get('psLegalTexts'));
             $legalTextsFromConfig = $this->psLegalTextRepository->getPsLegalTexts();
