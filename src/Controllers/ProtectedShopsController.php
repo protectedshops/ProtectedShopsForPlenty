@@ -107,10 +107,11 @@ class ProtectedShopsController extends Controller
         try {
             $shopId = $config->get('global.shopId');
             $plentyId = $config->get('global.plentyId');
+            var_dump($shopId); exit;
             $legalTextsToSync = array_unique($request->get('psLegalTexts'));
             $legalTextsFromConfig = $this->psLegalTextRepository->getPsLegalTexts();
             $data['legalTextsToGerman'] = $this->docMap;
-
+            
             $updated = [];
             foreach ($legalTextsToSync as $legalText) {
                 $remoteResponseHtml = $this->getDocument($shopId, $this->docMap[$legalText], 'html');
