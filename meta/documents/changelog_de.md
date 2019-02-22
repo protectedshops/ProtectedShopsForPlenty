@@ -14,3 +14,6 @@ MarketPlace-Info hinzugefügt
 ## v1.1.2 (2019-02-20)
 Neue Verwendung von rguide-Images, Korrektur der Plugin-Konfigurationsparameter.
 
+## v1.1.3 (2019-02-22)
+Geänderte Plugin-Kategorie.
+
